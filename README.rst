@@ -2,7 +2,7 @@ RunBin
 ======
 
 
-Executing data on the stack.
+Execute data on the stack (used for the time being).
 
 
 Installation
@@ -36,12 +36,14 @@ Usage
 
 ::
 
-   unbin --help
+   runbin --help
    Usage: runbin [-e] [-q] <filename>
 
-       -h, --help    show this help message and exit
-       -e, --escape  Use escape or raw hex.
-       -q, --quiet   Don't confirm.
+       -h, --help        show this help message and exit
+       -e, --escape      Use escape or raw hex.
+       -q, --quiet       Don't confirm.
+       -V, --version     Show the version and exit.
+
 
 Examples
 ++++++++
