@@ -68,6 +68,26 @@ Examples
 Other Utilities
 ---------------
 
+- ``disbin32``
+
+  Disassemble the given raw binary using ``objdump``.
+
+  A shorthand for the following. (Since our memory sucks.)
+
+  ::
+
+     objdump -D -b binary -m i386 -M intel "${filename}" | less -FXR
+
+- ``disbin64``
+
+  Disassemble the given raw binary using ``objdump``.
+
+  A shorthand for the following. (Since our memory sucks.)
+
+  ::
+
+     objdump -D -b binary -m i386:x86-64 -M intel "${filename}" | less -FXR
+
 - ``hex``
 
   ::
