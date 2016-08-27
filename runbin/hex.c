@@ -29,12 +29,12 @@ along with RunBin.  If not, see <http://www.gnu.org/licenses/>.
 int
 main(int argc, char **argv)
 {
-  if (argc != 2) {
-    printf("%s\n", "Invalied Argument!");
-    return EXIT_FAILURE;
-  }
+    if (argc != 2) {
+        printf("%s\n", "Invalied Argument!");
+        return EXIT_FAILURE;
+    }
 
-  print_hex(argv[1]);
+    print_hex(argv[1]);
 
-  return EXIT_SUCCESS;
+    return EXIT_SUCCESS;
 }
